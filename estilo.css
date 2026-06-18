@@ -1,35 +1,20 @@
-{
-    box-sizing: borxer-box;
-    margin: 0;
-    padding: 0;
-}
+ {
+box-sizing: border-box;
+margin: 0;
+padding: 0;
+} 
 
 body {
-    display: flex;
-    flex-direction: column;
-    min-height:  100vh;
+   display: flex;
+   flex-direction: column;
+   min-height: 100vh;
+   background-color: #f5f2f2;
 }
 
 .cabecalho {
-    padding: 15px 25px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-main{
-    flex: 1;
-}
-
-.cartao {
-    width: 260px;
-    height: 200px;
-}
-
-.cartao-imagem {
-    width: 100%;
-}
-
-.cartao-imagem {
-width: 100%;
+  background-color: #7e3e1c;
+  padding: 15px 25px
+  display:0 flex;
+  justify-contente: space-between;
+  align-items: center;
 }
