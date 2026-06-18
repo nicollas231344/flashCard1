@@ -1,4 +1,4 @@
- {
+ * {
 box-sizing: border-box;
 margin: 0;
 padding: 0;
@@ -13,8 +13,34 @@ body {
 
 .cabecalho {
   background-color: #7e3e1c;
-  padding: 15px 25px
+  padding: 15px 25px;
   display:0 flex;
   justify-contente: space-between;
   align-items: center;
 }
+
+.cabecalho-link{
+  color: #fff;
+  text-decoration: none;
+ }
+
+ footer{
+  background-color: #7e3e1c;
+  padding: 15px 25px
+  color: #fff;
+  align-items: center;
+  }
+ main {
+   flex:1;
+   display: flex;
+   flex-direction: culumn;
+   align-items: center;
+ }
+  h1{
+    color: top 10px
+    margin-bottom: 10px
+   }
+  h2 {
+  margin-top: 10px;
+  margin-bottom: 10px;}
+  
